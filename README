@@ -1,0 +1,9 @@
+The Concurrent Compiler Lexer is a research project by Salomon BRYS at the University of Kent Canterbury.
+This sub-project is part of the Concurent Compiler Toolkit, by Salomon BRYS.
+
+It aims to provide developers a way to easily create very fast lexers by parallelizing and compiling their algorythms.
+
+It uses :
+  * LLVM to compile
+  * Intel Thread Building Blocks to parallelize.
+  * CoCoT/LLVMREGen to handle the regular expressions.
