@@ -41,7 +41,11 @@ int main()
 			break ;
 
 		if (tk.lexeme != -1)
-			std::cout << "<(" << _lex_reNames[tk.lexeme] << "):\"" << std::string(tk.start).substr(0, tk.len) << "\">" << std::endl;
+			std::cout
+				<< "=============================" << std::endl
+				<< _lex_reNames[tk.lexeme] << std::endl
+				<< "-----------------------------" << std::endl
+				<< std::string(tk.start).substr(0, tk.len) << std::endl;
 
 		str += consumed;
 	}
